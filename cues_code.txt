@@ -1,175 +1,201 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2759
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww26280\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+combined_verbs_data$cue_rec <-  NULL
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("dit","disent", "disait","disaient","dira","disant","dire")] <- "dire"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("explique","expliqua","expliquent","expliqué","expliquait","expliquaient","expliquant","expliquer")] <- "expliquer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("estime","estiment","estimé","estimait","estimaient","estima","estimant","estimer")] <- "estimer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("assure","assurent","assuré","assurait","assuraient","assura","assurant","assurer")] <- "assurer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("affirme","affirment","affirmé","affirmait","affirmaient","affirma","affirmant","affirmer")] <- "affirmer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("écrit","écrivent","écrivait","écrivaient","écrivant","écrivit","écrire")] <- "écrire"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("précise","précisent","précisé","précisait","précisaient","précisa","précisant","préciser")] <- "préciser"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("déclare","déclarent","déclaré","déclarait","déclaraient","déclara","déclarant","déclarer")] <- "déclarer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("rappelle","rappellent","rappelé","rappelait","rappelaient","rappela","rappelant","rappeler")] <- "rappeler"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("raconte","racontent","raconté","rappelait","rappelaient","raconta","racontant","raconter")] <- "raconter"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("ajoute","ajoutent","ajouté","ajoutait","ajoutaient","ajouta","ajoutant","ajouter")] <- "ajouter"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("indique","indiquent","indiqué","indiquait","indiquaient","indiqua","indiquant","indiquer")] <- "indiquer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("souligne","soulignent","souligné","soulignait","soulignaient","souligna","soulignant","souligner")] <- "souligner"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("explique","expliquent","expliqué","expliquait","expliquaient","expliqua","expliquant","expliquer")] <- "expliquer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("poursuit","poursuivent","poursuivi","poursuivait","poursuivaient","poursuivit","poursuivant","poursuivre")] <- "poursuivre"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("annoncer","annoncent","annoncé","annonçait","annonçaient","annonça","annonçant","annoncer")] <- "annoncer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("demande","demandent","demandé","demandait","demandaient","demanda","demandant","demander")] <- "demander"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("reconnaît","reconnaissent","reconnu","reconnaissait","reconnaissaient","reconnut","reconnaissant","reconnaître")] <- "reconnaître"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("répond","répondent","répondu","répondait","répondaient","répondit","répondant","répondre")] <- "répondre"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("indique","indiquent","indiqué","indiquait","indiquaient","indiqua","indiquant","indiquer")] <- "indiquer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("confirme","confirment","confirmé","confirmait","confirmaient","confirma","confirmant","confirmer")] <- "confirmer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("insiste","insistent","insisté","insistait","insistaient","insista","insistant","insister")] <- "insister"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("résume","résument","résuma","résumait","résumaient","résuma","résumant","résumer")] <- "résumer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("note","notent","noté","notait","notaient","nota","notant","noter")] <- "noter"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("constate","constatent","constaté","constatait","constataient","constata","constatant","constater")] <- "constater"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("lance","lancent","lancé","lançait","lançaient","lança","lançant","lancer")] <- "lancer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("pense","pensent","pensé","pensait","pensaient","pensa","pensant","penser")] <- "penser"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("juge","jugent","jugé","jugée","jugeait","jugeaient","jugea","jugeant","juger")] <- "juger"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("propose","proposent","proposé","proposait","proposaient","proposa","proposant","proposer")] <- "proposer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("conclut","concluent","conclu","concluait","concluaient","concluant","conclure")] <- "conclure"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("rapporte","rapportent","rapporté","rapportait","rapportaient","rapporta","rapportant","rapporter")] <- "rapporter"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("souhaite","souhaitent","souhaité","souhaitait","souhaitaient","souhaita","souhaitant","souhaiter")] <- "souhaiter"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("déplore","déplorent","déploré","déplorait","déploraient","déplora","déplorant","déplorer")] <- "déplorer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("confie","confient","confié","confiait","confiaient","confia","confiant","confier")] <- "confier"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("décrit","décrivent","décrivait","décrivaient","décrivit","décrivant","décrire")] <- "décrire"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("trouve","trouvent","trouvé","trouvait","trouvaient","trouva","trouvant","trouver")] <- "trouver"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("commente","commentent","commenté","commentait","commentaient","commenta","commentant","commenter")] <- "commenter"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("sait","savent","su","savait","savaient","sut","sachant","savoir")] <- "savoir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("est","sont","été","était","étaient","soit","serait","fut","sera","étant","être")] <- "être"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("reconnaît","reconnaissent","reconnu","reconnaissait","reconnaissaient","reconnut","reconnaissant","reconnaître")] <- "reconnaître"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("défend","défendent","défendu","défendait","défendaient","défendit","défendant","défendre")] <- "défendre"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("prévient","préviennent","prévenu","prévenait","prévenaient","prévint","prévenant","prévenir")] <- "prévenir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("témoigne","témoignent","témoigné","témoignait","témoignaient","témoigna","témoignant","témoigner")] <- "témoigner"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("relève","relèvent","relevé","relevait","relevaient","releva","relevant","relever")] <- "relever"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("avance","avancent","avancé","avançait","avançaient","avança","avançant","avancer")] <- "avancer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("admet","admettent","admis","admettait","admettaient","admit","admettant","admettre")] <- "admettre"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("écrit","écrivent","écrivait","écrivaient","écrivit","écrivant","écrire")] <- "écrire"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("révèle","révèlent","révélé","révélait","révélaient","révéla","révélant","révéler")] <- "révéler"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("observe","observent","observé","observait","observaient","observa","observant","observer")] <- "observer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("dénonce","dénoncent","dénoncé","dénonçait","dénonçaient","dénonça","dénonçant","dénoncer")] <- "dénoncer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("peut","peuvent","pu","pouvait","pouvaient","put","pouvant","pouvoir")] <- "pouvoir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("réagit","réagissent","réagi","réagissait","réagissaient","réagit","réagissant","réagir")] <- "réagir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("rétorque","rétorquent","rétorqué","rétorquait","rétorquaient","rétorqua","rétorquant","rétorquer")] <- "rétorquer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("remarque","remarquent","remarqué","remarquait","remarquaient","remarqua","remarquant","remarquer")] <- "remarquer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("lit","lisent","lu","lisait","lisaient","lut","lisant","lire")] <- "lire"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("plaide","plaident","plaidé","plaidait","plaidaient","plaida","plaidant","plaider")] <- "plaider"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("donne","donnent","donné","donnait","donnaient","donna","donnant","donner")] <- "donner"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("appelle","appellent","appelé","appelait","appelaient","appela","appelant","appeler")] <- "appeler"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("considère","considèrent","considéré","considérait","considéraient","considéra","considérant","considérer")] <- "considérer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("annonce","annoncent","annoncé","annonçait","annonçaient","annonça","annonçant","annoncer")] <- "annoncer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("soutient","soutiennent","soutenu","soutenait","soutenaient","soutint","soutenant","soutenir")] <- "soutenir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("prévoit","prévoient","prévu","prévoyait","prévoyaient","prévit","prévoyant","prévoir")] <- "prévoir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("fait","font","faisait","faisaient","fit","faisant","faire")] <- "faire"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("reproche","reprochent","reproché","reprochait","reprochaient","reprocha","reprochant","reprocher")] <- "reprocher"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("prétend","prétendent","prétendu","prétendait","prétendaient","prétendit","prétendant","prétendre")] <- "prétendre"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("entend","entendent","entendu","entendait","entendaient","étendit","entendre","entendant","entendre")] <- "(s)entendre"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("avoue","avouent","avoué","avouait","avouaient","avoua","avouant","avouer")] <- "avouer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("suggère","suggèrent","suggéré","suggérait","suggéraient","suggéra","suggérant","suggérer")] <- "suggérer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("concède","concèdent","concédé","concédait","concédaient","concéda","concédant","concéder")] <- "concéder"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("veut","veulent","voulu","voulait","voulaient","voulut","voulant","vouloir")] <- "vouloir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("invite","invitent","invité","invitait","invitaient","invita","invitant","inviter")] <- "inviter"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("laisse","laissent","laissé","laissait","laissaient","laissa","laissant","laisser")] <- "laisser"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("croit","croient","cru","croyait","croyaient","crut","croyant","croire")] <- "croire"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("justifie","justifient","justifié","justifiait","justifiaient","justifia","justifiant","justifier")] <- "justifier"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("plaint","plaignent","plaignait","plaignaient","plaignant","plaindre")] <- "(se)plaindre"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("lâche","lâchent","lâché","lâchait","lâchaient","lâcha","lâchant","lâcher")] <- "lâcher"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("martèle","martèlent","martelé","martelait","martelaient","martela","martelant","marteler")] <- "marteler"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("invite","invité","invitait","invitaient","invita","invitant","inviter")] <- "inviter"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("promet","promettent","promis","promettait","promettaient","promit","promettant","promettre")] <- "promettre"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("répète","répètent","répété","répétait","répétaient","répéta","répétant","répéter")] <- "répéter"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("espère","espèrent","espéré","espérait","espéraient","espéra","espérant","espérer")] <- "espérer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("souvient","souviennent","souvenu","souvenait","souvenaient","souvint","souvenant","souvenir")] <- "(se)souvenir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("exprimé","expriment","exprimait","exprimaient","exprima","exprimant","exprimer")] <- "exprimer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("recommande","recommand","recommandent","recommandé","recommandait","recommandaient","recommanda","recommandant","recommander")] <- "recommander"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("évoque","évoquent","évoqué","évoquait","évoquaient","évoqua","évoquant","évoquer")] <- "évoquer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("regrette","regrettent","regretté","regrettait","regrettaient","regretta","regrettant","regretter")] <- "regretter"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("accuse","accusent","accusé","accusait","accusaient","accusa","accusant","accuser")] <- "accuser"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("prédit","prédisent","prédisait","prédisaient","prédisant","prédire")] <- "prédire"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("craint","crainte","craignent","craignait","craignaient","craignit","craignant","craindre")] <- "craindre"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("avertit","avertissent","averti","avertissait","avertissaient","avertissant","avertir")] <- "avertir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("expose","exposent","exposé","exposait","exposaient","exposa","exposant","exposer")] <- "exposer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("cite","citent","cité","citait","citaient","cita","citant","citer")] <- "citer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("ironise","ironisent","ironisé","ironisait","ironisaient","ironisa","ironisant","ironiser")] <- "ironiser"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("réclame","réclament","réclamé","réclamait","réclamaient","réclama","réclamant","réclamer")] <- "réclamer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("critique","critiquent","critiqué","critiquait","critiquaient","critiqua","critiquant","critiquer")] <- "critiquer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("relate","relatent","relaté","relatait","relataient","relata","relatant","relater")] <- "relater"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("étonne","étonnent","étonné","étonnait","étonnaient","étonna","étonnant","étonner")] <- "(s)étonner"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("tweete","tweetent","tweeté","tweetait","tweetaient","tweeta","tweetant","tweeter")] <- "tweeter"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("analyse","analysent","analysé","analysait","analysaient","analysa","analysant","analyser")] <- "analyser"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("réjouit","réjouissent","réjouissait","réjouissaient","réjouissant","réjouir")] <- "(se)réjouir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("soupire","soupirent","soupiré","soupirait","soupiraient","soupira","soupirant","soupirer")] <- "soupirer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("lamente","lamentent","lamenté","lamentait","lamentaient","lamenta","lamentant","lamenter")] <- "(se)lamenter"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("murmure","murmurent","murmuré","murmurait","murmuraient","murmura","murmurant","murmurer")] <- "murmurer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("marmonne","marmonnent","marmonné","marmonnait","marmonnaient","marmonna","marmonnant","marmonner")] <- "marmonner"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("raille","raillent","raillé","raillait","raillaient","railla","raillant","railler")] <- "railler"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("argue","arguent","argué","arguait","arguaient","argua","arguant","arguer")] <- "arguer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("menace","menacent","menacé","menaçait","menaçaient","menaça","menaçant","menacer")] <- "menacer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("hurle","hurlent","hurlé","hurlait","hurlaient","hurla","hurlant","hurler")] <- "hurler"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("expose","exposent","exposé","exposait","exposaient","exposa","exposant","exposer")] <- "exposer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("avance","avancent","avancé","avançait","avançaient","avança","avançant","avancer")] <- "avancer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("étrangle","étranglent","étranglé","étranglait","étranglaient","étrangla","étranglant","étrangler")] <- "(s)étrangler"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("indigne","indignent","indigné","indignait","indignaient","indigna","indignant","indigner")] <- "(s)indigner"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("profère","profèrent","proféré","proférait","proféraient","proféra","proferant","proférer")] <- "proférer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("plaide","plaident","plaidé","plaidait","plaidaient","plaida","plaidant","plaider")] <- "plaider"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("a","ont","eu","avait","avaient","eut","ayant","avoir")] <- "avoir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("vaut","valait","valent","valaient", "valut","vaudra","valant","valoir", "valu", "vaudront")] <- "valoir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("salue","saluent","salué","saluait","saluaient","salua","saluant","saluer")] <- "saluer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("renchérit","renchérissent","renchéri","renchérissait","renchérissaient","renchérissant","renchérir")] <- "renchérir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("sourit","sourient","souri","souriait","souriaient","souria","souriant","sourire")] <- "sourire"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("interroge","interrogent","interrogé","interrogeait","interrogeaient","interrogea","interrogeant","interroger")] <- "(s)interroger"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("réplique","répliquent","répliquait","répliquaient","répliqua","répliquant","répliquer")] <- "répliquer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("exige","exigent","exigé","exigeait","exigeaient","exigea","exigeant","exiger")] <- "exiger"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("résume","résument","résumé","résumait","résumaient","résuma","résumant","résumer")] <- "résumer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("informe","informent","informé","informait","informaient","informa","informant","informer")] <- "informer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("doit","doivent","dû","devait","devaient","dut","devant","devoir")] <- "devoir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("signale","signalent","signalé","signalait","signalaient","signala","signalant","signaler")] <- "signaler"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("félicite","félicitent","félicité","félicitait","félicitaient","félicita","félicitant","féliciter")] <- "féliciter"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("détaille","détaillent","détaillé","détaillait","détaillaient","détailla","détaillant","détailler")] <- "détailler"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("mets","mettent","mis","mettait","mettaient","mit","mettant","mettre")] <- "mettre"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("exprime","expriment","exprimé","exprimait","exprimaient","exprima","exprimant","exprimer")] <- "exprimer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("adresse","adressent","adressé","adressait","adressaient","adressa","adressant","adresser")] <- "adresser"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("viens","viennent","venu","venait","venaient","vint","venant","venir")] <- "venir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("inquiète","inquiètent","inquiété","inquiétait","inquiétaient","inquiéta","inquiétant","inquiéter", "inquiet")] <- "(s)inquiéter"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("vais","vont","allé","allait","allaient","alla","allant","aller")] <- "aller"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("salue","saluent","salué","saluait","saluaient","salua","saluant","saluer")] <- "saluer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("proteste","protestent","protesté","protestait","protestaient","protesta","protestant","protester")] <- "protester"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("désole","désolent","désolé","désolait","désolaient","désola","désolant","désoler")] <- "(se)désoler"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("tient","tiennent","tenu","tenait","tenaient","tint","tenant","tenir")] <- "tenir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("amus","amuse","amusent","amusait","amusaient", "amusa","amuser", "amusé")] <- "(s)amuser"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("vois","voient","vu","voyait","voyaient","vit","voyant","voir")] <- "voir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("reprend","reprennent","repris","reprenait","reprenaient","reprit","reprenant","reprendre")] <- "reprendre"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("illustre","illustrent","illustré","illustrait","illustraient","illustra","illustrant","illustrer")] <- "illustrer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("abonde","abondent","abondé","abondait","abondaient","abonda","abondant","abond", "abonder")] <- "abonder"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("agace","agacent","agacé","agaçait","agaçaient","agaça","agaçant","agacer")] <- "(s)agacer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("assène","assènent","asséné","assénait", "assénaient","asséna","assénant","asséner")] <- "asséner"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("calcule","calculent","calculé","calculait","calculaient","calcula","calculant","calculer")] <- "calculer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("commence","commencent","commencé","commençait","commençaient","commença","commençant","commencer")] <- "commencer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("demeure","demeurent","demeuré","demeurait","demeuraient","demeura","demeurant","demeurer")] <- "demeurer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("deviens","deviennent","devenu","devenait","devenaient","devint","devenant", "devenir")] <- "devenir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("enchaîne","enchaînent","enchaîné","enchaînait","enchaînaient","enchaîna","enchaînant", "enchaîner")] <- "enchaîner"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("enthousiasme","enthousiasment","enthousiasmé","enthousiasmait","enthousiasmaient","enthousiasma", "enthousiasmer")] <- "(s)enthousiasmer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("exclame","exclament","exclamé","exclamait","exclamaient","exclama","exclamant", "exclamer")] <- "(s)exclamer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("glisse","glissent","glissé","glissait","glissaient","glissa","glissant", "glisser")] <- "glisser"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("insurge", "insurg","insurgent","insurgé","insurgeait","insurgeaient","insurgea", "mentionnant","insurger")] <- "(s)insurger"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("mentionne","mentionnent","mentionné","mentionnait","mentionnaient","mentionna", "mentionnant", "mentionner")] <- "mentionner"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("ordonne","ordonnent","ordonné","ordonnait","ordonnaient","ordonna", "ordonnant", "ordonner")] <- "ordonner"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("passe","passent","passé","passait","passaient","passa", "passant", "passer")] <- "passer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("prend","prennent","pris","prenait","prenaient","prit", "prenant", "prendre")] <- "prendre"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("présente","présentent","présenté","présentait","présentaient","présenta", "présentant", "présenter")] <- "présenter"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("publie","publient","publié","publiait","publiaient","publia", "publiant", "publier")] <- "publier"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("redoute","redoutent","redouté","redoutait","redoutaient","redouta", "redoutant", "redouter")] <- "redouter"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("revient","reviennent","revenu","revenait","revenaient","revint", "revenant", "revenir")] <- "revenir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("soulève","soulèvent","soulevé","soulevait","soulevaient","souleva", "soulevant", "soulever")] <- "soulever"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("tranche","tranchent","tranché","tranchait","tranchaient","trancha", "tranchant", "trancher")] <- "trancher"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("énonce","énoncent","énoncé","énonçait","énonçaient","énonça", "énonçant", "énoncer")] <- "énoncer"
 
-\f0\fs24 \cf0 ```\{r\}\
-combined_verbs_data$cue_rec <-  NULL\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("dit","disent", "disait","disaient","dira","disant","dire")] <- "dire"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("explique","expliqua","expliquent","expliqu\'e9","expliquait","expliquaient","expliquant","expliquer")] <- "expliquer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("estime","estiment","estim\'e9","estimait","estimaient","estima","estimant","estimer")] <- "estimer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("assure","assurent","assur\'e9","assurait","assuraient","assura","assurant","assurer")] <- "assurer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("affirme","affirment","affirm\'e9","affirmait","affirmaient","affirma","affirmant","affirmer")] <- "affirmer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("\'e9crit","\'e9crivent","\'e9crivait","\'e9crivaient","\'e9crivant","\'e9crivit","\'e9crire")] <- "\'e9crire"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("pr\'e9cise","pr\'e9cisent","pr\'e9cis\'e9","pr\'e9cisait","pr\'e9cisaient","pr\'e9cisa","pr\'e9cisant","pr\'e9ciser")] <- "pr\'e9ciser"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("d\'e9clare","d\'e9clarent","d\'e9clar\'e9","d\'e9clarait","d\'e9claraient","d\'e9clara","d\'e9clarant","d\'e9clarer")] <- "d\'e9clarer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("rappelle","rappellent","rappel\'e9","rappelait","rappelaient","rappela","rappelant","rappeler")] <- "rappeler"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("raconte","racontent","racont\'e9","rappelait","rappelaient","raconta","racontant","raconter")] <- "raconter"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("ajoute","ajoutent","ajout\'e9","ajoutait","ajoutaient","ajouta","ajoutant","ajouter")] <- "ajouter"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("indique","indiquent","indiqu\'e9","indiquait","indiquaient","indiqua","indiquant","indiquer")] <- "indiquer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("souligne","soulignent","soulign\'e9","soulignait","soulignaient","souligna","soulignant","souligner")] <- "souligner"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("explique","expliquent","expliqu\'e9","expliquait","expliquaient","expliqua","expliquant","expliquer")] <- "expliquer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("poursuit","poursuivent","poursuivi","poursuivait","poursuivaient","poursuivit","poursuivant","poursuivre")] <- "poursuivre"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("annoncer","annoncent","annonc\'e9","annon\'e7ait","annon\'e7aient","annon\'e7a","annon\'e7ant","annoncer")] <- "annoncer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("demande","demandent","demand\'e9","demandait","demandaient","demanda","demandant","demander")] <- "demander"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("reconna\'eet","reconnaissent","reconnu","reconnaissait","reconnaissaient","reconnut","reconnaissant","reconna\'eetre")] <- "reconna\'eetre"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("r\'e9pond","r\'e9pondent","r\'e9pondu","r\'e9pondait","r\'e9pondaient","r\'e9pondit","r\'e9pondant","r\'e9pondre")] <- "r\'e9pondre"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("indique","indiquent","indiqu\'e9","indiquait","indiquaient","indiqua","indiquant","indiquer")] <- "indiquer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("confirme","confirment","confirm\'e9","confirmait","confirmaient","confirma","confirmant","confirmer")] <- "confirmer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("insiste","insistent","insist\'e9","insistait","insistaient","insista","insistant","insister")] <- "insister"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("r\'e9sume","r\'e9sument","r\'e9suma","r\'e9sumait","r\'e9sumaient","r\'e9suma","r\'e9sumant","r\'e9sumer")] <- "r\'e9sumer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("note","notent","not\'e9","notait","notaient","nota","notant","noter")] <- "noter"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("constate","constatent","constat\'e9","constatait","constataient","constata","constatant","constater")] <- "constater"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("lance","lancent","lanc\'e9","lan\'e7ait","lan\'e7aient","lan\'e7a","lan\'e7ant","lancer")] <- "lancer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("pense","pensent","pens\'e9","pensait","pensaient","pensa","pensant","penser")] <- "penser"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("juge","jugent","jug\'e9","jugeait","jugeaient","jugea","jugeant","juger")] <- "juger"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("propose","proposent","propos\'e9","proposait","proposaient","proposa","proposant","proposer")] <- "proposer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("conclut","concluent","conclu","concluait","concluaient","concluant","conclure")] <- "conclure"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("rapporte","rapportent","rapport\'e9","rapportait","rapportaient","rapporta","rapportant","rapporter")] <- "rapporter"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("souhaite","souhaitent","souhait\'e9","souhaitait","souhaitaient","souhaita","souhaitant","souhaiter")] <- "souhaiter"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("d\'e9plore","d\'e9plorent","d\'e9plor\'e9","d\'e9plorait","d\'e9ploraient","d\'e9plora","d\'e9plorant","d\'e9plorer")] <- "d\'e9plorer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("confie","confient","confi\'e9","confiait","confiaient","confia","confiant","confier")] <- "confier"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("d\'e9crit","d\'e9crivent","d\'e9crivait","d\'e9crivaient","d\'e9crivit","d\'e9crivant","d\'e9crire")] <- "d\'e9crire"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("trouve","trouvent","trouv\'e9","trouvait","trouvaient","trouva","trouvant","trouver")] <- "trouver"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("commente","commentent","comment\'e9","commentait","commentaient","commenta","commentant","commenter")] <- "commenter"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("sait","savent","su","savait","savaient","sut","sachant","savoir")] <- "savoir"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("est","sont","\'e9t\'e9","\'e9tait","\'e9taient","soit","serait","fut","sera","\'e9tant","\'eatre")] <- "\'eatre"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("reconna\'eet","reconnaissent","reconnu","reconnaissait","reconnaissaient","reconnut","reconnaissant","reconna\'eetre")] <- "reconna\'eetre"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("d\'e9fend","d\'e9fendent","d\'e9fendu","d\'e9fendait","d\'e9fendaient","d\'e9fendit","d\'e9fendant","d\'e9fendre")] <- "d\'e9fendre"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("pr\'e9vient","pr\'e9viennent","pr\'e9venu","pr\'e9venait","pr\'e9venaient","pr\'e9vint","pr\'e9venant","pr\'e9venir")] <- "pr\'e9venir"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("t\'e9moigne","t\'e9moignent","t\'e9moign\'e9","t\'e9moignait","t\'e9moignaient","t\'e9moigna","t\'e9moignant","t\'e9moigner")] <- "t\'e9moigner"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("rel\'e8ve","rel\'e8vent","relev\'e9","relevait","relevaient","releva","relevant","relever")] <- "relever"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("avance","avancent","avanc\'e9","avan\'e7ait","avan\'e7aient","avan\'e7a","avan\'e7ant","avancer")] <- "avancer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("admet","admettent","admis","admettait","admettaient","admit","admettant","admettre")] <- "admettre"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("\'e9crit","\'e9crivent","\'e9crivait","\'e9crivaient","\'e9crivit","\'e9crivant","\'e9crire")] <- "\'e9crire"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("r\'e9v\'e8le","r\'e9v\'e8lent","r\'e9v\'e9l\'e9","r\'e9v\'e9lait","r\'e9v\'e9laient","r\'e9v\'e9la","r\'e9v\'e9lant","r\'e9v\'e9ler")] <- "r\'e9v\'e9ler"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("observe","observent","observ\'e9","observait","observaient","observa","observant","observer")] <- "observer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("d\'e9nonce","d\'e9noncent","d\'e9nonc\'e9","d\'e9non\'e7ait","d\'e9non\'e7aient","d\'e9non\'e7a","d\'e9non\'e7ant","d\'e9noncer")] <- "d\'e9noncer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("peut","peuvent","pu","pouvait","pouvaient","put","pouvant","pouvoir")] <- "pouvoir"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("r\'e9agit","r\'e9agissent","r\'e9agi","r\'e9agissait","r\'e9agissaient","r\'e9agit","r\'e9agissant","r\'e9agir")] <- "r\'e9agir"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("r\'e9torque","r\'e9torquent","r\'e9torqu\'e9","r\'e9torquait","r\'e9torquaient","r\'e9torqua","r\'e9torquant","r\'e9torquer")] <- "r\'e9torquer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("remarque","remarquent","remarqu\'e9","remarquait","remarquaient","remarqua","remarquant","remarquer")] <- "remarquer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("lit","lisent","lu","lisait","lisaient","lut","lisant","lire")] <- "lire"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("plaide","plaident","plaid\'e9","plaidait","plaidaient","plaida","plaidant","plaider")] <- "plaider"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("donne","donnent","donn\'e9","donnait","donnaient","donna","donnant","donner")] <- "donner"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("appelle","appellent","appel\'e9","appelait","appelaient","appela","appelant","appeler")] <- "appeler"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("consid\'e8re","consid\'e8rent","consid\'e9r\'e9","consid\'e9rait","consid\'e9raient","consid\'e9ra","consid\'e9rant","consid\'e9rer")] <- "consid\'e9rer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("annonce","annoncent","annonc\'e9","annon\'e7ait","annon\'e7aient","annon\'e7a","annon\'e7ant","annoncer")] <- "annoncer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("soutient","soutiennent","soutenu","soutenait","soutenaient","soutint","soutenant","soutenir")] <- "soutenir"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("pr\'e9voit","pr\'e9voient","pr\'e9vu","pr\'e9voyait","pr\'e9voyaient","pr\'e9vit","pr\'e9voyant","pr\'e9voir")] <- "pr\'e9voir"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("fait","font","faisait","faisaient","fit","faisant","faire")] <- "faire"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("reproche","reprochent","reproch\'e9","reprochait","reprochaient","reprocha","reprochant","reprocher")] <- "reprocher"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("pr\'e9tend","pr\'e9tendent","pr\'e9tendu","pr\'e9tendait","pr\'e9tendaient","pr\'e9tendit","pr\'e9tendant","pr\'e9tendre")] <- "pr\'e9tendre"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("entend","entendent","entendu","entendait","entendaient","\'e9tendit","entendre","entendant","entendre")] <- "(s)entendre"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("avoue","avouent","avou\'e9","avouait","avouaient","avoua","avouant","avouer")] <- "avouer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("sugg\'e8re","sugg\'e8rent","sugg\'e9r\'e9","sugg\'e9rait","sugg\'e9raient","sugg\'e9ra","sugg\'e9rant","sugg\'e9rer")] <- "sugg\'e9rer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("conc\'e8de","conc\'e8dent","conc\'e9d\'e9","conc\'e9dait","conc\'e9daient","conc\'e9da","conc\'e9dant","conc\'e9der")] <- "conc\'e9der"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("veut","veulent","voulu","voulait","voulaient","voulut","voulant","vouloir")] <- "vouloir"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("invite","invitent","invit\'e9","invitait","invitaient","invita","invitant","inviter")] <- "inviter"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("laisse","laissent","laiss\'e9","laissait","laissaient","laissa","laissant","laisser")] <- "laisser"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("croit","croient","cru","croyait","croyaient","crut","croyant","croire")] <- "croire"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("justifie","justifient","justifi\'e9","justifiait","justifiaient","justifia","justifiant","justifier")] <- "justifier"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("plaint","plaignent","plaignait","plaignaient","plaignant","plaindre")] <- "(se)plaindre"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("l\'e2che","l\'e2chent","l\'e2ch\'e9","l\'e2chait","l\'e2chaient","l\'e2cha","l\'e2chant","l\'e2cher")] <- "l\'e2cher"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("mart\'e8le","mart\'e8lent","martel\'e9","martelait","martelaient","martela","martelant","marteler")] <- "marteler"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("invite","invit\'e9","invitait","invitaient","invita","invitant","inviter")] <- "inviter"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("promet","promettent","promis","promettait","promettaient","promit","promettant","promettre")] <- "promettre"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("r\'e9p\'e8te","r\'e9p\'e8tent","r\'e9p\'e9t\'e9","r\'e9p\'e9tait","r\'e9p\'e9taient","r\'e9p\'e9ta","r\'e9p\'e9tant","r\'e9p\'e9ter")] <- "r\'e9p\'e9ter"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("esp\'e8re","esp\'e8rent","esp\'e9r\'e9","esp\'e9rait","esp\'e9raient","esp\'e9ra","esp\'e9rant","esp\'e9rer")] <- "esp\'e9rer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("souvient","souviennent","souvenu","souvenait","souvenaient","souvint","souvenant","souvenir")] <- "(se)souvenir"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("exprim\'e9","expriment","exprimait","exprimaient","exprima","exprimant","exprimer")] <- "exprimer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("recommande","recommand","recommandent","recommand\'e9","recommandait","recommandaient","recommanda","recommandant","recommander")] <- "recommander"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("\'e9voque","\'e9voquent","\'e9voqu\'e9","\'e9voquait","\'e9voquaient","\'e9voqua","\'e9voquant","\'e9voquer")] <- "\'e9voquer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("regrette","regrettent","regrett\'e9","regrettait","regrettaient","regretta","regrettant","regretter")] <- "regretter"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("accuse","accusent","accus\'e9","accusait","accusaient","accusa","accusant","accuser")] <- "accuser"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("pr\'e9dit","pr\'e9disent","pr\'e9disait","pr\'e9disaient","pr\'e9disant","pr\'e9dire")] <- "pr\'e9dire"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("craint","craignent","craignait","craignaient","craignit","craignant","craindre")] <- "craindre"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("avertit","avertissent","averti","avertissait","avertissaient","avertissant","avertir")] <- "avertir"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("expose","exposent","expos\'e9","exposait","exposaient","exposa","exposant","exposer")] <- "exposer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("cite","citent","cit\'e9","citait","citaient","cita","citant","citer")] <- "citer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("ironise","ironisent","ironis\'e9","ironisait","ironisaient","ironisa","ironisant","ironiser")] <- "ironiser"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("r\'e9clame","r\'e9clament","r\'e9clam\'e9","r\'e9clamait","r\'e9clamaient","r\'e9clama","r\'e9clamant","r\'e9clamer")] <- "r\'e9clamer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("critique","critiquent","critiqu\'e9","critiquait","critiquaient","critiqua","critiquant","critiquer")] <- "critiquer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("relate","relatent","relat\'e9","relatait","relataient","relata","relatant","relater")] <- "relater"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("\'e9tonne","\'e9tonnent","\'e9tonn\'e9","\'e9tonnait","\'e9tonnaient","\'e9tonna","\'e9tonnant","\'e9tonner")] <- "(s)\'e9tonner"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("tweete","tweetent","tweet\'e9","tweetait","tweetaient","tweeta","tweetant","tweeter")] <- "tweeter"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("analyse","analysent","analys\'e9","analysait","analysaient","analysa","analysant","analyser")] <- "analyser"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("r\'e9jouit","r\'e9jouissent","r\'e9jouissait","r\'e9jouissaient","r\'e9jouissant","r\'e9jouir")] <- "(se)r\'e9jouir"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("soupire","soupirent","soupir\'e9","soupirait","soupiraient","soupira","soupirant","soupirer")] <- "soupirer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("lamente","lamentent","lament\'e9","lamentait","lamentaient","lamenta","lamentant","lamenter")] <- "(se)lamenter"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("murmure","murmurent","murmur\'e9","murmurait","murmuraient","murmura","murmurant","murmurer")] <- "murmurer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("marmonne","marmonnent","marmonn\'e9","marmonnait","marmonnaient","marmonna","marmonnant","marmonner")] <- "marmonner"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("raille","raillent","raill\'e9","raillait","raillaient","railla","raillant","railler")] <- "railler"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("argue","arguent","argu\'e9","arguait","arguaient","argua","arguant","arguer")] <- "arguer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("menace","menacent","menac\'e9","mena\'e7ait","mena\'e7aient","mena\'e7a","mena\'e7ant","menacer")] <- "menacer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("hurle","hurlent","hurl\'e9","hurlait","hurlaient","hurla","hurlant","hurler")] <- "hurler"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("expose","exposent","expos\'e9","exposait","exposaient","exposa","exposant","exposer")] <- "exposer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("avance","avancent","avanc\'e9","avan\'e7ait","avan\'e7aient","avan\'e7a","avan\'e7ant","avancer")] <- "avancer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("\'e9trangle","\'e9tranglent","\'e9trangl\'e9","\'e9tranglait","\'e9tranglaient","\'e9trangla","\'e9tranglant","\'e9trangler")] <- "(s)\'e9trangler"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("indigne","indignent","indign\'e9","indignait","indignaient","indigna","indignant","indigner")] <- "(s)indigner"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("prof\'e8re","prof\'e8rent","prof\'e9r\'e9","prof\'e9rait","prof\'e9raient","prof\'e9ra","proferant","prof\'e9rer")] <- "prof\'e9rer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("plaide","plaident","plaid\'e9","plaidait","plaidaient","plaida","plaidant","plaider")] <- "plaider"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("a","ont","eu","avait","avaient","eut","ayant","avoir")] <- "avoir"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("vaut","valait","valent","valaient", "valut","vaudra","valant","valoir", "valu", "vaudront")] <- "valoir"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("salue","saluent","salu\'e9","saluait","saluaient","salua","saluant","saluer")] <- "saluer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("rench\'e9rit","rench\'e9rissent","rench\'e9ri","rench\'e9rissait","rench\'e9rissaient","rench\'e9rissant","rench\'e9rir")] <- "rench\'e9rir"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("sourit","sourient","souri","souriait","souriaient","souria","souriant","sourire")] <- "sourire"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("interroge","interrogent","interrog\'e9","interrogeait","interrogeaient","interrogea","interrogeant","interroger")] <- "(s)interroger"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("r\'e9plique","r\'e9pliquent","r\'e9pliquait","r\'e9pliquaient","r\'e9pliqua","r\'e9pliquant","r\'e9pliquer")] <- "r\'e9pliquer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("exige","exigent","exig\'e9","exigeait","exigeaient","exigea","exigeant","exiger")] <- "exiger"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("r\'e9sume","r\'e9sument","r\'e9sum\'e9","r\'e9sumait","r\'e9sumaient","r\'e9suma","r\'e9sumant","r\'e9sumer")] <- "r\'e9sumer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("informe","informent","inform\'e9","informait","informaient","informa","informant","informer")] <- "informer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("doit","doivent","d\'fb","devait","devaient","dut","devant","devoir")] <- "devoir"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("signale","signalent","signal\'e9","signalait","signalaient","signala","signalant","signaler")] <- "signaler"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("f\'e9licite","f\'e9licitent","f\'e9licit\'e9","f\'e9licitait","f\'e9licitaient","f\'e9licita","f\'e9licitant","f\'e9liciter")] <- "f\'e9liciter"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("d\'e9taille","d\'e9taillent","d\'e9taill\'e9","d\'e9taillait","d\'e9taillaient","d\'e9tailla","d\'e9taillant","d\'e9tailler")] <- "d\'e9tailler"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("mets","mettent","mis","mettait","mettaient","mit","mettant","mettre")] <- "mettre"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("exprime","expriment","exprim\'e9","exprimait","exprimaient","exprima","exprimant","exprimer")] <- "exprimer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("adresse","adressent","adress\'e9","adressait","adressaient","adressa","adressant","adresser")] <- "adresser"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("viens","viennent","venu","venait","venaient","vint","venant","venir")] <- "venir"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("inqui\'e8te","inqui\'e8tent","inqui\'e9t\'e9","inqui\'e9tait","inqui\'e9taient","inqui\'e9ta","inqui\'e9tant","inqui\'e9ter", "inquiet")] <- "(s)inqui\'e9ter"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("vais","vont","all\'e9","allait","allaient","alla","allant","aller")] <- "aller"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("salue","saluent","salu\'e9","saluait","saluaient","salua","saluant","saluer")] <- "saluer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("proteste","protestent","protest\'e9","protestait","protestaient","protesta","protestant","protester")] <- "protester"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("d\'e9sole","d\'e9solent","d\'e9sol\'e9","d\'e9solait","d\'e9solaient","d\'e9sola","d\'e9solant","d\'e9soler")] <- "(se)d\'e9soler"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("tient","tiennent","tenu","tenait","tenaient","tint","tenant","tenir")] <- "tenir"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("amus","amuse","amusent","amusait","amusaient", "amusa","amuser", "amus\'e9")] <- "(s)amuser"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("vois","voient","vu","voyait","voyaient","vit","voyant","voir")] <- "voir"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("reprend","reprennent","repris","reprenait","reprenaient","reprit","reprenant","reprendre")] <- "reprendre"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("illustre","illustrent","illustr\'e9","illustrait","illustraient","illustra","illustrant","illustrer")] <- "illustrer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("abonde","abondent","abond\'e9","abondait","abondaient","abonda","abondant","abond", "abonder")] <- "abonder"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("agace","agacent","agac\'e9","aga\'e7ait","aga\'e7aient","aga\'e7a","aga\'e7ant","agacer")] <- "(s)agacer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("ass\'e8ne","ass\'e8nent","ass\'e9n\'e9","ass\'e9nait", "ass\'e9naient","ass\'e9na","ass\'e9nant","ass\'e9ner")] <- "ass\'e9ner"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("calcule","calculent","calcul\'e9","calculait","calculaient","calcula","calculant","calculer")] <- "calculer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("commence","commencent","commenc\'e9","commen\'e7ait","commen\'e7aient","commen\'e7a","commen\'e7ant","commencer")] <- "commencer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("demeure","demeurent","demeur\'e9","demeurait","demeuraient","demeura","demeurant","demeurer")] <- "demeurer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("deviens","deviennent","devenu","devenait","devenaient","devint","devenant", "devenir")] <- "devenir"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("encha\'eene","encha\'eenent","encha\'een\'e9","encha\'eenait","encha\'eenaient","encha\'eena","encha\'eenant", "encha\'eener")] <- "encha\'eener"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("enthousiasme","enthousiasment","enthousiasm\'e9","enthousiasmait","enthousiasmaient","enthousiasma", "enthousiasmer")] <- "(s)enthousiasmer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("exclame","exclament","exclam\'e9","exclamait","exclamaient","exclama","exclamant", "exclamer")] <- "(s)exclamer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("glisse","glissent","gliss\'e9","glissait","glissaient","glissa","glissant", "glisser")] <- "glisser"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("insurge", "insurg","insurgent","insurg\'e9","insurgeait","insurgeaient","insurgea", "mentionnant","insurger")] <- "(s)insurger"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("mentionne","mentionnent","mentionn\'e9","mentionnait","mentionnaient","mentionna", "mentionnant", "mentionner")] <- "mentionner"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("ordonne","ordonnent","ordonn\'e9","ordonnait","ordonnaient","ordonna", "ordonnant", "ordonner")] <- "ordonner"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("passe","passent","pass\'e9","passait","passaient","passa", "passant", "passer")] <- "passer"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("prend","prennent","pris","prenait","prenaient","prit", "prenant", "prendre")] <- "prendre"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("pr\'e9sente","pr\'e9sentent","pr\'e9sent\'e9","pr\'e9sentait","pr\'e9sentaient","pr\'e9senta", "pr\'e9sentant", "pr\'e9senter")] <- "pr\'e9senter"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("publie","publient","publi\'e9","publiait","publiaient","publia", "publiant", "publier")] <- "publier"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("redoute","redoutent","redout\'e9","redoutait","redoutaient","redouta", "redoutant", "redouter")] <- "redouter"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("revient","reviennent","revenu","revenait","revenaient","revint", "revenant", "revenir")] <- "revenir"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("soul\'e8ve","soul\'e8vent","soulev\'e9","soulevait","soulevaient","souleva", "soulevant", "soulever")] <- "soulever"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("tranche","tranchent","tranch\'e9","tranchait","tranchaient","trancha", "tranchant", "trancher")] <- "trancher"\
-combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("\'e9nonce","\'e9noncent","\'e9nonc\'e9","\'e9non\'e7ait","\'e9non\'e7aient","\'e9non\'e7a", "\'e9non\'e7ant", "\'e9noncer")] <- "\'e9noncer"\
-```}
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("appuie","appuient","appuyé","appuyait","appuyaient","appuya", "appuyant", "appuyer")] <- "appuyer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("continue","continuent","continué","continuait","continuaient","continua", "continuant", "continuer")] <- "continuer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("décide","décident","décidé","décidait","décidaient","décida", "décidant", "décider")] <- "décider"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("atteste","attestent","attesté","attestait","attestaient","attesta", "attestant", "attester")] <- "attester"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("réalise","réalisent","réalisé","réalisait","réalisaient","réalisa", "réalisant", "réaliser")] <- "réaliser"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("rend","rendent","rendu","rendait","rendaient","rendit", "rendant", "rendre")] <- "rendre"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("crée","créent","créé","créait","créaient","créa", "créant", "créer")] <- "créer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("charge","chargent","chargé","chargeait","chargeaient","chargea", "chargeant", "charger")] <- "charger"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("choisit","choisissent","choisi","choisissait","choisissaient","choisit", "choisissant", "choisir")] <- "choisir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("tente","tentent","tenté","tentait","tentaient","tenta", "tentant", "tenter")] <- "tenter"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("dirige","dirigent","dirigé","dirigeait","dirigeaient","dirigea", "dirigeant", "diriger")] <- "diriger"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("semble","semblent","semblé","semblait","semblaient","sembla", "semblant", "sembler")] <- "sembler"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("recueille","recueillent","recueilli","recueillait","recueillaient","recueillit", "recueillant", "recueillir")] <- "recueillir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("signe", "signent", "signé", "signait", "signaient", "signa", "signant", "signer")] <- "signer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("fustige", "fustigent", "fustigé", "fustigeait", "fustigeaient", "fustigea", "fustigeant", "fustiger")] <- "fustiger"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("tonne", "tonnent", "tonné", "tonnait", "tonnaient", "tonna", "tonnant", "tonner")] <- "tonner"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("argumente", "argumentent", "argumenté", "argumentait", "argumentaient", "argumenta", "argumentant", "argumenter")] <- "argumenter"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("permet", "permettent", "permis", "permettait", "permettaient", "permit", "permettant", "permettre")] <- "permettre"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("convie", "convient", "convié", "conviait", "conviaient", "convia", "convie", "convier")] <- "convier"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("traduit", "traduisent", "traduit", "traduisait", "traduisaient", "traduisi", "traduisant", "traduire")] <- "traduire"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("connaît", "connaissent", "connu", "connaissait", "connaissaient", "connut", "connaissant", "connaître")] <- "connaître"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("tente", "tentent", "tenté", "tentait", "tentaient", "tenta", "tentant", "tenter")] <- "tenter"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("reçoit", "reçoivent", "reçu", "recevait", "recevaient", "reçut", "recevant", "recevoir")] <- "recevoir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("conseille", "conseillent", "conseillé", "conseillait", "conseillaient", "conseilla", "conseillant", "conseiller")] <- "conseiller"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("reste", "restent", "resté", "restait", "restaient", "resta", "restant", "rester")] <- "rester"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("finit", "finissent", "fini", "finissait", "finissaient", "finit", "finissant", "finir")] <- "finir"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("nait", "naissent", "né", "naissait", "naissaient", "naquit", "naissant", "naître")] <- "naître"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("emporte", "emportent", "emporté", "emportait", "emportaient", "emporta", "emportant", "emporter")] <- "(s)emporter"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("réfute", "réfutent", "réfuté", "réfutait", "réfutaient", "réfuta", "réfutant", "réfuter")] <- "réfuter"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("nuance", "nuancent", "nuancé", "nuançait", "nuançaient", "nuança", "nuançant", "nuancer")] <- "nuancer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("engage", "engagent", "engagé", "engageait", "engageaient", "engagea", "engageant", "engager")] <- "(s)engager"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("contente", "contentent", "contenté", "contentait", "contentaient", "contenta", "contentant", "contenter")] <- "(se)contenter"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("préfère", "préfèrent", "préféré", "préférait", "préféraient", "préféra", "préfère", "préférer")] <- "préférer"
+combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("relativise", "relativisent", "relativisé", "relativisait", "relativisaient", "relativisa", "relativisant", "relativiser")] <- "relativiser"
