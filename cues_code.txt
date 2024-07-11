@@ -164,7 +164,6 @@ combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("revient",
 combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("soulève","soulèvent","soulevé","soulevait","soulevaient","souleva", "soulevant", "soulever")] <- "soulever"
 combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("tranche","tranchent","tranché","tranchait","tranchaient","trancha", "tranchant", "trancher")] <- "trancher"
 combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("énonce","énoncent","énoncé","énonçait","énonçaient","énonça", "énonçant", "énoncer")] <- "énoncer"
-
 combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("appuie","appuient","appuyé","appuyait","appuyaient","appuya", "appuyant", "appuyer")] <- "appuyer"
 combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("continue","continuent","continué","continuait","continuaient","continua", "continuant", "continuer")] <- "continuer"
 combined_verbs_data$cue_rec[combined_verbs_data$lemmatized_cue %in% c("décide","décident","décidé","décidait","décidaient","décida", "décidant", "décider")] <- "décider"
