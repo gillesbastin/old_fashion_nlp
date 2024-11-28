@@ -15,4 +15,4 @@ For stopwords removal, refer to the following repository : [`french_stopwords`](
 
 ## Updates
 
-- 2024-11-28 : Corrected spelling error ("souligner") and added missing entries ("attendre", "refuser") in [`cues`](cues.csv) and [`cues_all`](cues_all.csv).
+- 2024-11-28 : Corrected spelling error ("souligner") and added missing entries ("falloir", "attendre", "refuser") in [`cues`](cues.csv) and [`cues_all`](cues_all.csv).
