@@ -64,6 +64,7 @@ lemmatized_cue,cue,n
 (s)inquiéter,inquiétaient,NA
 (s)inquiéter,inquiéta,NA
 (s)inquiéter,inquiétant,3
+(s)inquiéter,inquiet,2244
 (s)insurger,insurge,NA
 (s)insurger,insurger,105
 (s)insurger,insurg,1144
@@ -265,6 +266,15 @@ asséner,assénait,NA
 asséner,assénaient,NA
 asséner,asséna,5
 asséner,assénant,NA
+attendre,attend,2
+attendre,attendre,2097
+attendre,attends,NA
+attendre,attendait,NA
+attendre,attendant,2
+attendre,attendu,NA
+attendre,attendue,1
+attendre,attendrait,NA
+attendre,attendai,10
 attester,atteste,2605
 attester,attester,4723
 attester,attestent,NA
@@ -414,6 +424,7 @@ considérer,considérait,NA
 considérer,considéraient,NA
 considérer,considéra,NA
 considérer,considérant,64
+considérer,considéron,2616
 constater,constate,59619
 constater,constater,58613
 constater,constatent,NA
@@ -444,6 +455,8 @@ craindre,craignait,NA
 craindre,craignaient,NA
 craindre,craignit,NA
 craindre,craignant,5101
+craindre,crainte,5209
+craindre,crain,3897
 critiquer,critique,10656
 critiquer,critiquer,13563
 critiquer,critiquent,NA
@@ -507,6 +520,8 @@ dire,disait,NA
 dire,disaient,NA
 dire,dira,NA
 dire,disant,10069
+dire,dirai,5711
+dire,dison,4808
 diriger,dirige,NA
 diriger,diriger,1015
 diriger,dirigent,NA
@@ -602,6 +617,7 @@ espérer,espérait,NA
 espérer,espéraient,NA
 espérer,espéra,NA
 espérer,espérant,6032
+espérer,espéron,5959
 estimer,estime,260263
 estimer,estimer,178172
 estimer,estiment,73653
@@ -649,6 +665,10 @@ faire,faisait,NA
 faire,faisaient,NA
 faire,fit,NA
 faire,faisant,NA
+falloir,faut,30
+falloir,falloir,6412
+falloir,fallait,2
+falloir,fallut,NA
 finir,finit,NA
 finir,finir,1878
 finir,finissent,NA
@@ -916,6 +936,8 @@ penser,pensait,NA
 penser,pensaient,NA
 penser,pensa,NA
 penser,pensant,1
+penser,pensai,4023
+penser,pensée,3091
 permettre,permet,25
 permettre,permettre,6081
 permettre,permettent,NA
@@ -1002,6 +1024,7 @@ préciser,précisait,NA
 préciser,précisaient,NA
 préciser,précisa,1343
 préciser,précisant,NA
+préciser,précis,798
 prédire,prédit,NA
 prédire,prédire,8885
 prédire,prédisent,NA
@@ -1103,6 +1126,7 @@ recommander,recommandait,NA
 recommander,recommandaient,NA
 recommander,recommanda,NA
 recommander,recommandant,NA
+recommander,recommand,6020
 reconnaître,reconnaît,NA
 reconnaître,reconnaître,120925
 reconnaître,reconnaissent,NA
@@ -1127,6 +1151,16 @@ redouter,redoutait,NA
 redouter,redoutaient,NA
 redouter,redouta,16
 redouter,redoutant,1499
+refuser,refuse,866
+refuser,refuser,1349
+refuser,refuses,NA
+refuser,refusait,NA
+refuser,refusant,NA
+refuser,refusa,NA
+refuser,refusé,NA
+refuser,refusée,NA
+refuser,refuserai,NA
+refuser,refuseraient,NA
 regretter,regrette,4893
 regretter,regretter,490
 regretter,regrettent,2
@@ -1309,6 +1343,7 @@ savoir,savait,1
 savoir,savaient,NA
 savoir,sut,NA
 savoir,sachant,11
+savoir,savais,5202
 sembler,semble,2577
 sembler,sembler,1165
 sembler,semblent,NA
@@ -1341,14 +1376,6 @@ souhaiter,souhaitait,NA
 souhaiter,souhaitaient,NA
 souhaiter,souhaita,NA
 souhaiter,souhaitant,NA
-souigner,souligne,NA
-souigner,souigner,NA
-souigner,soulignent,NA
-souigner,souligné,NA
-souigner,soulignait,NA
-souigner,soulignaient,NA
-souigner,souligna,NA
-souigner,soulignant,NA
 soulever,soulève,NA
 soulever,soulever,8508
 soulever,soulèvent,NA
@@ -1357,6 +1384,14 @@ soulever,soulevait,NA
 soulever,soulevaient,NA
 soulever,souleva,NA
 soulever,soulevant,807
+souligner,souligne,121849
+souligner,souligner,139961
+souligner,soulignent,NA
+souligner,souligné,NA
+souligner,soulignait,NA
+souligner,soulignaient,NA
+souligner,souligna,NA
+souligner,soulignant,NA
 soupirer,soupire,6697
 soupirer,soupirer,772
 soupirer,soupirent,NA
@@ -1501,6 +1536,7 @@ vouloir,voulant,NA
 écrire,écrivaient,NA
 écrire,écrivant,NA
 écrire,écrivit,NA
+écrire,écrite,2558
 énoncer,énonce,NA
 énoncer,énoncer,3128
 énoncer,énoncent,NA
@@ -1528,3 +1564,5 @@ vouloir,voulant,NA
 être,fut,NA
 être,sera,29
 être,étant,NA
+être,étion,2180
+être,êtes,1567
