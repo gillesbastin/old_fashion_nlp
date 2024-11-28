@@ -93,6 +93,11 @@ assurer,assurer,118542
 asséner,assène,1256
 asséner,asséna,5
 asséner,asséner,463
+attendre,attend,2
+attendre,attendai,10
+attendre,attendant,2
+attendre,attendre,2097
+attendre,attendue,1
 attester,atteste,2605
 attester,attester,4723
 avancer,avance,13832
@@ -142,6 +147,7 @@ conseiller,conseille,645
 conseiller,conseiller,278
 considérer,considérant,64
 considérer,considérer,102575
+considérer,considéron,2616
 constater,constate,59619
 constater,constater,58613
 continuer,continuant,3
@@ -151,6 +157,7 @@ convier,convia,1
 convier,convier,828
 convier,convié,51
 craindre,craignant,5101
+craindre,crain,3897
 craindre,craindre,50710
 craindre,craint,22
 craindre,crainte,5209
@@ -175,8 +182,10 @@ devoir,devant,51
 devoir,devoir,16035
 devoir,doivent,1
 devoir,dut,27
+dire,dirai,5711
 dire,dire,779893
 dire,disant,10069
+dire,dison,4808
 dire,dit,10
 diriger,dirigeant,5
 diriger,diriger,1015
@@ -207,6 +216,7 @@ enchaîner,enchaîner,2311
 espérer,espère,5
 espérer,espérant,6032
 espérer,espérer,66574
+espérer,espéron,5959
 estimer,estimant,16
 estimer,estime,260263
 estimer,estiment,73653
@@ -226,6 +236,9 @@ exprimer,exprimer,36561
 faire,faire,8168
 faire,fait,12227
 faire,font,3
+falloir,fallait,2
+falloir,falloir,6412
+falloir,faut,30
 finir,fini,28
 finir,finir,1878
 finir,finissant,12
@@ -320,6 +333,7 @@ organiser,organise,354
 organiser,organiser,2869
 passer,passant,3
 passer,passer,4246
+penser,pensai,4023
 penser,pensant,1
 penser,pense,89955
 penser,penser,116957
@@ -350,6 +364,7 @@ protester,protesta,138
 protester,protestant,14
 protester,proteste,3932
 protester,protester,6956
+préciser,précis,798
 préciser,précisa,1343
 préciser,précise,135882
 préciser,préciser,167883
@@ -386,6 +401,8 @@ redouter,redouta,16
 redouter,redoutant,1499
 redouter,redoute,484
 redouter,redouter,11657
+refuser,refuse,866
+refuser,refuser,1349
 regretter,regretta,3
 regretter,regrette,4893
 regretter,regrettent,2
@@ -443,6 +460,7 @@ révéler,révéler,56414
 saluer,salue,3770
 saluer,saluer,13200
 savoir,sachant,11
+savoir,savais,5202
 savoir,savait,1
 savoir,savoir,321323
 sembler,sembla,1
@@ -516,4 +534,6 @@ vouloir,vouloir,119998
 évoquer,évoquer,41410
 être,sera,29
 être,soit,116400
+être,étion,2180
+être,êtes,1567
 être,être,126721
